@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components_metrics>
+	<component>
+	 <name>metrics-module-pageviews</name>
+	 <description>Page views count</description>
+	 <authors>Artaza Haydee, Corpas Manuel, Jimenez Rafael</authors>
+	 <input>
+      <parameter>SAM</parameter>
+    </input>
+	 <output>number</output>
+	 <dependencies>
+		<library>es6-promise</library> 
+		<library>request</library> 
+	 </dependencies>
+	 <frequency>daily</frequency>
+	 <resources>
+		<rsc>software</rsc>
+	 </resources>
+	 <repository>https://github.com/haydeeartaza/metrics-module-pageviews.git</repository>
+	</component>
+</components_metrics>
